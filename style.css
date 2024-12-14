@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Arizonia";
+}
+
+header {
+  background-image: linear-gradient(to bottom, rgb(171, 52, 10), black 115%);
+  padding: 25px 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: "Arizonia";
+  font-weight: 400;
+}
+
+#topLinks {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+#topLinks a {
+  text-decoration: none;
+  color: white;
+  margin: 0 auto;
+}
+
+#restaurante {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  font-size: 25px;
+  position: relative;
+}
+
+#footerImg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 350px;
+  opacity: 0.25;
+  z-index: -1;
+}
+
+#restaurante div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 40%;
+}
+
+#foto1 {
+  height: 480px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+  justify-content: end;
+}
+
+#btn1 {
+  padding: 12px 30px;
+  background-color: rgb(171, 52, 10);
+  border-radius: 15px;
+  border: solid 2px black;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#btn2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 12px 30px;
+  color: white;
+  text-underline-offset: 8px;
+  border: solid 2px white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+#menu {
+  display: flex;
+  padding: 80px;
+  position: relative;
+  height: 100vh;
+}
+
+#moldura {
+  transform: rotate(75deg);
+  position: absolute;
+  left: 80px;
+  bottom: 180px;
+  z-index: 1;
+}
+
+#sardinhas {
+  width: 260px;
+  position: absolute;
+  border-radius: 50px;
+  left: 190px;
+  bottom: 180px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 24px;
+  background-image: linear-gradient(to top, rgba(171, 52, 10, 0.704), black);
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+#lema {
+  font-size: 30px;
+}
+
+#iconEmail {
+  height: 25px;
+  margin-bottom: -6px;
+}
+
+#credits {
+  text-align: center;
+  padding: 4px;
+}
+
+#credits a {
+  text-decoration: none;
+  color: white;
+}
