@@ -97,24 +97,38 @@ nav {
 
 #menu {
   display: flex;
-  padding: 80px;
+  justify-content: start;
+  padding: 50px;
   position: relative;
   height: 100vh;
+  background-color: black;
+}
+
+#cardapio {
+  width: 60%;
+  overflow-y: auto;
+  height: 80vh;
+}
+
+#menuJpg {
+  width: 100%;
 }
 
 #moldura {
   transform: rotate(75deg);
   position: absolute;
-  left: 80px;
+  height: 40vh;
+  right: 80px;
   bottom: 180px;
   z-index: 1;
 }
 
 #sardinhas {
-  width: 260px;
+  width: auto;
   position: absolute;
+  height: 40vh;
   border-radius: 50px;
-  left: 190px;
+  right: 168px;
   bottom: 180px;
 }
 
