@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(185, 163, 138);
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-family: "Arizonia";
 }
@@ -41,7 +41,6 @@ header {
   display: flex;
   justify-content: space-around;
   padding: 80px;
-  font-size: 25px;
   position: relative;
 }
 
@@ -51,7 +50,7 @@ header {
   left: 0;
   width: 100%;
   height: 350px;
-  opacity: 0.25;
+  opacity: 0.5;
   z-index: -1;
 }
 
@@ -60,7 +59,13 @@ header {
   justify-content: center;
   flex-direction: column;
   gap: 25px;
-  max-width: 40%;
+  max-width: 60%;
+}
+
+#restaurante div p {
+  font-size: 32px;
+  text-indent: 2em;
+  text-align: justify;
 }
 
 #foto1 {
@@ -75,7 +80,8 @@ nav {
 
 #btn1 {
   padding: 12px 30px;
-  background-color: rgb(171, 52, 10);
+  background-image: linear-gradient(to bottom, rgb(171, 52, 10), black 115%);
+
   border-radius: 15px;
   border: solid 2px black;
   color: white;
@@ -85,7 +91,7 @@ nav {
 }
 
 #btn2 {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 1);
   padding: 12px 30px;
   color: white;
   text-underline-offset: 8px;
@@ -115,21 +121,11 @@ nav {
 }
 
 #moldura {
-  transform: rotate(75deg);
   position: absolute;
   height: 40vh;
   right: 80px;
   bottom: 180px;
   z-index: 1;
-}
-
-#sardinhas {
-  width: auto;
-  position: absolute;
-  height: 40vh;
-  border-radius: 50px;
-  right: 168px;
-  bottom: 180px;
 }
 
 footer {
@@ -144,6 +140,7 @@ footer {
 #contact {
   display: flex;
   flex-direction: column;
+  width: 35%;
 }
 
 footer a {
@@ -154,6 +151,7 @@ footer a {
 
 #lema {
   font-size: 30px;
+  width: 50%;
 }
 
 #iconEmail {
@@ -168,5 +166,5 @@ footer a {
 
 #credits a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
