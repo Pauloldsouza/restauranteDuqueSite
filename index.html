@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <!--Ícone do instagram-->
@@ -22,6 +22,17 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
       rel="stylesheet"
     />
+
+    <!--Ícone do telefone de contacto-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=call"
+    />
+    <!--Ícone do restaurante-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=storefront"
+    />
   </head>
   <body>
     <header>
@@ -29,12 +40,13 @@
       <div id="topLinks">
         <a href="#restaurante">Restaurante</a>
         <a href="#menu">Menu</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#contact">Contacto</a>
+        <a href="">Idioma</a>
       </div>
     </header>
     <main>
       <section id="restaurante">
-        <img id="foto1" src="assets/semFundo.png" alt="foto do Duque" />
+        <img id="foto1" src="assets/DuqueMold.png" alt="foto do Duque" />
         <div>
           <p>
             Bem-vindo ao Restaurante Duque, onde tradição e sofisticação se
@@ -54,16 +66,15 @@
             ><a id="btn2" href="">Menu</a>
           </nav>
         </div>
-        <img
+        <!--
+          <img
           id="footerImg"
           src="assets/orange-gold-footer-footer-design-element-free-png.webp"
           alt=""
-        />
+          />
+          -->
       </section>
       <section id="menu">
-        <div id="menuPic">
-          <img id="moldura" src="assets/molduras10.png" alt="moldura3" />
-        </div>
         <div id="scrollPart">
           <p class="logo">Menu do Duque</p>
           <div id="cardapio">
@@ -74,8 +85,17 @@
             />
           </div>
         </div>
+        <div id="menuPic">
+          <img id="moldura" src="assets/pngwing.com (1).png" alt="moldura3" />
+        </div>
       </section>
-      <section id="contacto"></section>
+      <section id="end">
+        <img
+          id="tripAdvisorLogo"
+          src="assets/tripadvisor_travellers_choice_2022.jpg"
+          alt="LogoTripAdvisor"
+        />
+      </section>
     </main>
     <footer>
       <div id="lema">
@@ -84,8 +104,14 @@
       </div>
 
       <div id="contact">
-        <p>Morada: R. do Duque 5, 1200-158 Lisboa</p>
-        <p>fone: 21 342 8579</p>
+        <h3>Contacto:</h3>
+        <p>
+          <span class="material-symbols-outlined"> storefront </span> R. do
+          Duque 5, 1200-158 Lisboa
+        </p>
+        <p>
+          <span class="material-symbols-outlined"> call </span> +351 21 342 8579
+        </p>
         <a
           target="_blank"
           href="https://www.instagram.com/restauranteduquelisboa/?hl=en"
