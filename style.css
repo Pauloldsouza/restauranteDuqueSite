@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-image: linear-gradient(to bottom, #6a1b1a, black 95%);
+  background-image: linear-gradient(to bottom, #942624, black 95%);
   padding: 25px 80px;
   display: flex;
   justify-content: space-between;
@@ -70,7 +70,7 @@ nav {
 
 #btn1 {
   padding: 12px 30px;
-  background-image: linear-gradient(to bottom, #6a1b1a, black 85%);
+  background-image: linear-gradient(to bottom, #942624, black 85%);
   border-radius: 15px;
   border: solid 2px rgb(184, 184, 184);
   color: rgb(184, 184, 184);
@@ -95,24 +95,26 @@ nav {
 #btn2:hover {
   font-size: larger;
   color: goldenrod;
-  transition: 0.4s;
+  transition: 0.25s;
 }
 
 #menu {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 25px;
   padding: 50px;
-  height: 100vh;
   background-color: black;
-  height: 100vh;
+}
+
+#scrollPart {
+  width: 100vh;
 }
 
 #cardapio {
-  width: 100vh;
   overflow-y: auto;
   height: 80vh;
-  border-radius: 25px;
+  width: 100%;
 }
 
 #menuJpg {
@@ -121,7 +123,6 @@ nav {
 
 #moldura {
   height: 80vh;
-  right: 80px;
 }
 
 #end {
@@ -139,7 +140,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   padding: 24px;
-  background-image: linear-gradient(to top, #6a1b1a, black 95%);
+  background-image: linear-gradient(to top, #942624, black 95%);
   color: white;
 }
 
